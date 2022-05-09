@@ -5,8 +5,6 @@ excerpt: 'We will look at how could you monitor the emails that you sent using A
 cover_image: '/images/posts/img1.png'
 category: 'AWS'
 category_image: '/images/languages/aws.png'
-author: 'John Doe'
-author_image: 'https://randomuser.me/api/portraits/men/11.jpg'
 ---
 
 <!-- Markdow generator - https://jaspervdj.be/lorem-markdownum/ -->
