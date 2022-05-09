@@ -4,7 +4,7 @@ date: 'May 9, 2022'
 excerpt: 'We will look at how could you monitor the emails that you sent using Amazon SES?'
 cover_image: '/images/posts/img1.png'
 category: 'AWS'
-category_image: '/images/languages/Aws.jpeg'
+category_image: '/images/languages/aws.jpeg'
 author: 'John Doe'
 author_image: 'https://randomuser.me/api/portraits/men/11.jpg'
 ---
