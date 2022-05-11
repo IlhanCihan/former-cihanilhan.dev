@@ -3,8 +3,8 @@ title: 'Amazon SES Email Monitoring'
 date: 'May 9, 2022'
 excerpt: 'We will look at how could you monitor the emails that you sent using Amazon SES?'
 cover_image: '/images/posts/img1.png'
-category: 'AWS'
-category_image: '/images/languages/aws.png'
+category: 'General'
+category_image: '/images/languages/general.png'
 ---
 
 <!-- Markdow generator - https://jaspervdj.be/lorem-markdownum/ -->
