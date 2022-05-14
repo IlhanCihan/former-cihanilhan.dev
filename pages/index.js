@@ -30,7 +30,6 @@ export default function Home({ posts }) {
                         <Post post={post} />
                     </Col>
 
-
             ))}
             </Row>
 
