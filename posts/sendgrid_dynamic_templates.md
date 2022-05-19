@@ -7,7 +7,7 @@ category: 'SendGrid'
 category_image: '/images/languages/sendgrid.png'
 ---
 <br/>
- If you already created your API Key for SendGrind there are few steps you should do before you can start mailing your clients with dynamic templates
+ If you already created your API Key for SendGrid there are few steps you should do before you can start mailing your clients with dynamic templates
 Here are they as follows:
 <br/><br/>
 
