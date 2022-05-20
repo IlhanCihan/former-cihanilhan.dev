@@ -13,6 +13,7 @@ export default function Layout({title, keywords, description, children, classNam
         <title>{title}</title>
         <meta name="keywords" content={keywords}/>
         <meta name="description" content={description}/>
+        <meta name="yandex-verification" content="7108d2073afc0767" />
     </Head>
         <Container>
 
