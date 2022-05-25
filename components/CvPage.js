@@ -26,7 +26,7 @@ export default function CvPage() {
                         </h1>
                     </Col>
                     <Col sm={3}>
-                        <Card.Title ><FontAwesomeIcon icon={ faEnvelope }/> cihanilhan.171@gmail.com</Card.Title>
+                        <Card.Title ><FontAwesomeIcon icon={ faEnvelope }/> root@cihanilhan.dev </Card.Title>
                         {/*<Card.Title ><FontAwesomeIcon icon={ faPhone }/> +40 773 890 165</Card.Title>*/}
                         <Row>
                             <Col>
