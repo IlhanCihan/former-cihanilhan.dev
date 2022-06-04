@@ -18,7 +18,7 @@ export default function Home({ posts }) {
             <div style={{ marginTop: '15px',padding: '20px', backgroundColor: 'rgba(191, 191, 191, 0.15)' , borderRadius: '10px', marginBottom: '40px' }}>
                 <h1 >
                     Hello World
-                    <img style={{marginLeft: '10px'}} width="50" height="50" src="https://camo.githubusercontent.com/66e00b1e8f7047726770f791fdd5deac5341bf0b598f6d0202cbc94cda80fb06/68747470733a2f2f692e696d6775722e636f6d2f6c73697a67476c2e676966" />
+                    <img style={{marginLeft: '10px'}} width="50" height="50" src="https://camo.githubusercontent.com/66e00b1e8f7047726770f791fdd5deac5341bf0b598f6d0202cbc94cda80fb06/68747470733a2f2f692e696d6775722e636f6d2f6c73697a67476c2e676966"  alt='hello'/>
                 </h1>
                 <h4 style={{marginLeft: '15px', marginTop: '10px'}} >I post my blogs here 📫</h4>
             </div>
@@ -36,7 +36,7 @@ export default function Home({ posts }) {
             <br/>
             <div style={{textAlign: "center"}}>
                 <Button variant="secondary" size="lg" >
-                    <Link    href='/blog'>
+                    <Link    href='/blog' passHref>
                         <a style={{textDecoration: 'none', color: 'inherit'}}> <FontAwesomeIcon  icon={ faBookOpen }/> Read all posts  <FontAwesomeIcon  icon={ faBookOpen }/> </a>
                     </Link>
                 </Button>

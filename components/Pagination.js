@@ -19,7 +19,7 @@ export default function PaginationNon({currentPage, numPages}) {
             <div style={{marginTop: '30px'}}>
                 {!isFirst &&(
                 <Button size="lg" variant="secondary">
-                    <Link    href={prevPage}>
+                    <Link    href={prevPage} passHref>
                         <a style={{textDecoration: 'none', color: 'white'}}>
                             <FontAwesomeIcon  icon={ faAngleLeft }/>  Previous
                         </a>
@@ -30,7 +30,7 @@ export default function PaginationNon({currentPage, numPages}) {
 
                 {Array.from({ length: numPages }, (_, i) => (
                     <Button size="lg" variant="secondary" style={{marginLeft: '10px'}}>
-                        <Link    href={`/blog/page/${i + 1}`} key={`page-${i}`}>
+                        <Link    href={`/blog/page/${i + 1}`} key={`page-${i}`} passHref>
                             <a style={{textDecoration: 'none', color: 'white'}}>
                                 {i + 1}
                             </a>
@@ -41,7 +41,7 @@ export default function PaginationNon({currentPage, numPages}) {
 
                 {!isLast &&(
                     <Button size="lg" variant="secondary" style={{marginLeft: '10px'}}>
-                        <Link    href={nextPage}>
+                        <Link    href={nextPage} passHref>
                             <a style={{textDecoration: 'none', color: 'white'}}>
                                   Next <FontAwesomeIcon  icon={ faAngleRight }/>
                             </a>
@@ -50,7 +50,7 @@ export default function PaginationNon({currentPage, numPages}) {
                     </Button>
                 )}
             </div>
-             
+
 
 
 

@@ -14,7 +14,7 @@ const MainNavbar = ({theme, toggleTheme}) => {
 
 
             <Navbar.Brand className="fj-navbar-brand">
-                <Link href="/">
+                <Link href="/" passHref>
                     <a style={{color: theme.fontColor}}> Cihan Ilhan</a>
                 </Link>
 
@@ -27,7 +27,7 @@ const MainNavbar = ({theme, toggleTheme}) => {
 
                     <Nav.Link
                         as={() =>
-                            <Link   href='/blog'>
+                            <Link   href='/blog' passHref>
                                 <a  style={{marginLeft: '25px'}} className="fj-navbar-item fj-navbar-link"> <FontAwesomeIcon icon={ faFeather }/> Blogs</a>
                             </Link>
                         }
@@ -35,19 +35,11 @@ const MainNavbar = ({theme, toggleTheme}) => {
 
                     <Nav.Link
                         as={() =>
-                            <Link   href='/CV'>
+                            <Link   href='/CV' passHref>
                                 <a  style={{marginLeft: '25px'}} className="fj-navbar-item fj-navbar-link"> <FontAwesomeIcon icon={ faAddressCard }/> CV</a>
                             </Link>
                         }
                     />
-
-                    {/*<Nav.Link*/}
-                    {/*    as={() =>*/}
-                    {/*        <Link   href='/Contact'>*/}
-                    {/*            <a  style={{marginLeft: '25px'}} className="fj-navbar-item fj-navbar-link"> <FontAwesomeIcon icon={ faEnvelope }/> Contact</a>*/}
-                    {/*        </Link>*/}
-                    {/*    }*/}
-                    {/*/>*/}
 
                 </Nav>
 
@@ -57,9 +49,6 @@ const MainNavbar = ({theme, toggleTheme}) => {
                     <ThemeToggle   onChange={toggleTheme}/>
                 </div>
                 <Search />
-
-
-
             </Navbar.Collapse>
 
 

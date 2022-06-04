@@ -27,7 +27,7 @@ export default function Layout({title, keywords, description, children, classNam
             </div>
                 <footer className="page-footer">
                     <div style={{marginTop: '100px' }}>
-                        <Link href="/">
+                        <Link href="/" passHref>
                         <a  style={{ textDecoration: 'none'  }} >
                             © {new Date().getFullYear()} Cihan Ilhan
                         </a>

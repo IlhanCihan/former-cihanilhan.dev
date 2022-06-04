@@ -15,8 +15,7 @@ export default function Post({post}) {
 
                             <div className="blog-detail-header">
                             <p className="lead mb-0">
-                            <img
-                            style={{marginRight: '10px'}}
+                            <Image
                             src={post.frontmatter.category_image}
                             className="rounded-circle mr-3"
                             height="50px"
@@ -26,7 +25,7 @@ export default function Post({post}) {
                             </div>
 
 
-                        <div>
+                        <div style={{marginLeft: '10px'}}>
                             <Card.Title className="font-weight-bold mb-1">
                                 <CategoryLabel className="font-weight-bold mb-1">{post.frontmatter.category}</CategoryLabel>
                             </Card.Title>
@@ -61,7 +60,7 @@ export default function Post({post}) {
                     </Card.Body>
                 </div>
 
-                <Link href={`/blog/${post.slug}`} >
+                <Link href={`/blog/${post.slug}`} passHref>
                     <a className="card-button"    style={{textDecoration: 'none'}}>
                         Read More
                     </a>

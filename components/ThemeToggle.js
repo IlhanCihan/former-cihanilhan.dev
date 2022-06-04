@@ -7,8 +7,8 @@ const ThemeToggle = ({onChange}) =>
         <Toggle
             className="day-night-toggle"
             icons={{
-                checked: <FontAwesomeIcon inverse icon={ faSun }/>,
-                unchecked: <FontAwesomeIcon inverse icon={ faMoon }/>,
+                checked: <FontAwesomeIcon inverse icon={ faMoon }/>,
+                unchecked: <FontAwesomeIcon inverse icon={  faSun}/>,
             }}
             onChange={onChange} />
     </label>

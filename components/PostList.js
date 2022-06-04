@@ -1,4 +1,4 @@
-
+import Image from 'next/image'
 import { Card } from 'react-bootstrap';
 import Link from 'next/link';
 import CategoryLabel from "./CategoryLabel";
@@ -9,16 +9,15 @@ const PostList = ({post, compact}) => {
             <div className="card-body-wrapper">
                 <Card.Header
                     className="d-flex flex-row">
-                    <img
-                        style={{marginRight: '10px'}}
+                    <Image
                         src={post.frontmatter.category_image}
                         className="rounded-circle mr-3"
                         height="50px"
                         width="50px"
                         alt="avatar"/>
 
-                        <div>
-                            <Card.Title className="font-weight-bold mb-1">
+                        <div style={{marginLeft: '10px'}}>
+                            <Card.Title className="font-weight-bold mb-1"   >
                                 <CategoryLabel className="font-weight-bold mb-1">{post.frontmatter.category}</CategoryLabel>
                             </Card.Title>
                             <Card.Text className="card-date">{post.frontmatter.date}</Card.Text>
@@ -32,7 +31,7 @@ const PostList = ({post, compact}) => {
                         </>
                 </Card.Body>
             </div>
-            <Link href={`/blog/${post.slug}`} >
+            <Link href={`/blog/${post.slug}`} passHref>
                 <a className="card-button"    style={{textDecoration: 'none'}}>
                     Read More
                 </a>
