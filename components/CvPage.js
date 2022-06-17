@@ -44,7 +44,7 @@ export default function CvPage() {
                                     </Link>
                                 </Card.Title>
                                               <Card.Title ><FontAwesomeIcon icon={ faEnvelope }/>
-                                    <Link   href='mailto:cihanilhan.171@gmail.com' passHref>
+                                    <Link   href='mailto:root@cihanilhan.dev' passHref>
                                         <a style={{ color: 'inherit', marginLeft: '20px', textDecoration: 'none' }}>root@cihanilhan.dev </a>
                                     </Link>
                                 </Card.Title>
