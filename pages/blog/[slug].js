@@ -6,11 +6,12 @@ import Link from 'next/link'
 import Layout from "../../components/Layout";
 import {Col, Row} from "react-bootstrap";
 import CategoryLabel from "../../components/CategoryLabel";
+import {useRef} from "react";
 
 export default function PostPage({frontmatter: { title, category, date, cover_image, excerpt, author_image, category_image }, content, slug,})
 {
 
-
+    const imgRef = useRef(null);
     return (
         <Layout className="blog-detail-page" title={title}>
             <Row>
@@ -23,7 +24,7 @@ export default function PostPage({frontmatter: { title, category, date, cover_im
                         className="rounded-circle mr-3"
                         height="50px"
                         width="50px"
-                        alt="avatar"/>
+                        alt="avatar" ref={imgRef}/>
                     {/*<CategoryLabel >{category}</CategoryLabel>*/}
                     {category}
                     {', '} {date}

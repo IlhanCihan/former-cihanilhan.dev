@@ -1,1 +1,1 @@
-**Nur DeDe, Hell Yeah!**
+**My personal blog site made with next.js**
