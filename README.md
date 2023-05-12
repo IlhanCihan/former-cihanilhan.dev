@@ -1,1 +1,2 @@
-**My personal blog site made with next.js**
+## My old personal blog site 📝
+### The site was built using Next.js and uses Markdown to create blog posts.
